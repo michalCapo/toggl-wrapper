@@ -8,7 +8,7 @@ let tray
 function createWindow() {
   // Create the browser window.
   win = new BrowserWindow({ minWidth: 800, height: 600, icon: __dirname + '/toggl_64.png' })
-  tray = new Tray(__dirname + '/toggl_64.png')
+  tray = new Tray(__dirname + '/build/icons/64x64.png')
   const contextMenu = Menu.buildFromTemplate([
     { label: 'Exit', type: 'normal', click: () => { win.destroy() } },
   ])

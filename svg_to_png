@@ -1,6 +1,10 @@
-inkscape -z -e toggl_1024.png -w 1024 -h 1024 toggl.svg
-inkscape -z -e toggl_512.png -w 512 -h 512 toggl.svg
-inkscape -z -e toggl_256.png -w 256 -h 256 toggl.svg
-inkscape -z -e toggl_64.png -w 64 -h 64 toggl.svg
-inkscape -z -e toggl_48.png -w 48 -h 48 toggl.svg
-inkscape -z -e toggl_32.png -w 32 -h 32 toggl.svg
+inkscape -z -e build/icons/1024x1024.png -w 1024 -h 1024 toggl.svg
+inkscape -z -e build/icons/512x512.png -w 512 -h 512 toggl.svg
+inkscape -z -e build/icons/256x256.png -w 256 -h 256 toggl.svg
+inkscape -z -e build/icons/128x128.png -w 128 -h 128 toggl.svg
+inkscape -z -e build/icons/96x96.png -w 96 -h 96 toggl.svg
+inkscape -z -e build/icons/64x64.png -w 64 -h 64 toggl.svg
+inkscape -z -e build/icons/48x48.png -w 48 -h 48 toggl.svg
+inkscape -z -e build/icons/32x32.png -w 32 -h 32 toggl.svg
+inkscape -z -e build/icons/24x24.png -w 24 -h 24 toggl.svg
+inkscape -z -e build/icons/16x16.png -w 16 -h 16 toggl.svg

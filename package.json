@@ -1,12 +1,16 @@
 {
   "name": "toggl-wrapper",
   "version": "0.0.1",
+  "license": "MIT",
+  "build": {
+    "productName": "Toggl Wrapper"
+  },
   "scripts": {
     "start": "electron .",
-    "build:win": "electron-packager ./ --platform=win32",
-    "build:lin": "electron-packager ./ --platform=linux",
-    "build": "rm -fr toggl_wrapper-* && yarn build:win && yarn build:lin",
-    "dist": "electron-builder"
+    "pack:win": "electron-packager ./ --platform=win32",
+    "pack:lin": "electron-packager ./ --platform=linux",
+    "pack": "rm -fr toggl_wrapper-* && yarn pack:win && yarn pack:lin",
+    "build": "electron-builder"
   },
   "devDependencies": {
     "electron": "^3.0.0-beta.3",

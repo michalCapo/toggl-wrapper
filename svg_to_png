@@ -1,0 +1,6 @@
+inkscape -z -e toggl_1024.png -w 1024 -h 1024 toggl.svg
+inkscape -z -e toggl_512.png -w 512 -h 512 toggl.svg
+inkscape -z -e toggl_256.png -w 256 -h 256 toggl.svg
+inkscape -z -e toggl_64.png -w 64 -h 64 toggl.svg
+inkscape -z -e toggl_48.png -w 48 -h 48 toggl.svg
+inkscape -z -e toggl_32.png -w 32 -h 32 toggl.svg

@@ -16,6 +16,6 @@ This is just a wrapper around https://toggl.com/app/ build with https://electron
 - electron packager
 
 # Commands
-- yarn start: run app in development mode
-- yarn build: build packages for windows and linux (use electron packager)
-- yarn dist: build packages for your platform (use electron builder)
+- `yarn start`: run app in development mode
+- `yarn build`: build packages for windows and linux (use electron packager)
+- `yarn dist`: build packages for your platform (use electron builder)

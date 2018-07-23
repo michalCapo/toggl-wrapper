@@ -8,12 +8,13 @@ This is just a wrapper around https://toggl.com/app/ build with https://electron
 - for macOS (not tested)
 - lives in system tray
 - hides on close
-- global shortcut `Super+r` opens and close window
+- global shortcut `Super+R` opens and close window
 
 # Libraries
 - electron (3.0 beta)
 - electron builder
 - electron packager
+- inkscape (for converting svg to png)
 
 # Commands
 - `yarn start`: run app in development mode
